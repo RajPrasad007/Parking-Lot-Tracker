@@ -6,3 +6,4 @@ You are allowed to park vehicles in Level A up to spot number 20. Once all 20 sp
 
 # Screenshots
 <img width="696" alt="Screenshot 2023-10-12 at 7 55 13 AM" src="https://github.com/RajPrasad007/Parking-Lot-Tracker/assets/94100929/64eced3b-3b9f-446b-ba1a-d654db5067a8">
+<img width="696" alt="Screenshot 2023-10-12 at 7 56 43 AM" src="https://github.com/RajPrasad007/Parking-Lot-Tracker/assets/94100929/1ceb25fd-f2aa-4a98-97e0-5216b5891e72">
