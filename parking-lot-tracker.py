@@ -8,14 +8,12 @@ class ParkingSpace:
     def assign_parking_space(self, vehicle_number):
         for level, spots in self.levels.items():
             for spot, occupied_by in spots.items():
-                if occupied_by == vehicle_number:
-                    return {"level": level, "spot": spot}
-
-        for level, spots in self.levels.items():
-            for spot, occupied_by in spots.items():
                 if occupied_by is None:
                     self.levels[level][spot] = vehicle_number
                     return {"level": level, "spot": spot}
+                elif occupied_by == vehicle_number:
+                    return {"level": level, "spot": spot}
+
         return None
 
     def retrieve_parking_spot(self, vehicle_number):
